@@ -5,6 +5,8 @@ Claude Code 상태줄에 **사용량(rate limit)**과 **컨텍스트 사용률**
 별도 툴(ccusage 등) 없이 Claude Code 내장 `statusLine` 기능만 사용한다.
 사용량 데이터는 Claude Code가 상태줄 command로 넘겨주는 JSON에서 뽑아온다.
 
+![상태줄 예시 — 모델·5h/7d 사용량·컨텍스트 사용률](demo.svg)
+
 ## 표시 항목
 
 ```
