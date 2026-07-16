@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="220" viewBox="0 0 680 220" font-family="ui-monospace, 'DejaVu Sans Mono', 'Cascadia Code', Menlo, Consolas, monospace">
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="679" height="219" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <!-- title bar -->
+  <rect x="1" y="1" width="678" height="40" rx="12" fill="#161b22"/>
+  <rect x="1" y="28" width="678" height="13" fill="#161b22"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="21" r="6" fill="#27c93f"/>
+  <text x="340" y="26" text-anchor="middle" font-size="13" fill="#8b949e">Claude Code — 상태줄</text>
+  <line x1="1" y1="41" x2="679" y2="41" stroke="#30363d"/>
+
+  <!-- input box (mimic Claude Code prompt) -->
+  <rect x="20" y="66" width="640" height="40" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="36" y="91" font-size="15" fill="#484f58">&gt; 사용량 상태줄 예시…</text>
+
+  <!-- status line -->
+  <text x="24" y="146" font-size="16" xml:space="preserve">
+    <tspan fill="#e6edf3" font-weight="bold">Opus 4.8</tspan><tspan fill="#6e7681"> · </tspan><tspan fill="#6e7681">5h </tspan><tspan fill="#d29922" font-weight="bold">78%</tspan><tspan fill="#6e7681">(⟳1h12m)  </tspan><tspan fill="#6e7681">7d </tspan><tspan fill="#3fb950" font-weight="bold">34%</tspan><tspan fill="#6e7681">(⟳98h30m)</tspan><tspan fill="#6e7681"> · </tspan><tspan fill="#6e7681">ctx </tspan><tspan fill="#f85149" font-weight="bold">91%</tspan>
+  </text>
+
+  <!-- legend -->
+  <text x="24" y="190" font-size="13" fill="#6e7681" xml:space="preserve">색상:  <tspan fill="#3fb950">초록 &lt;70%</tspan>   <tspan fill="#d29922">노랑 ≥70%</tspan>   <tspan fill="#f85149">빨강 ≥90%</tspan>      <tspan fill="#6e7681">(⟳ = 리밋 리셋까지 남은 시간)</tspan></text>
+</svg>
