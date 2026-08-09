@@ -85,3 +85,7 @@ cd claude-statusline
 
 `~/.claude/settings.json`에서 `statusLine` 블록을 지우거나,
 Claude Code에서 `/statusline` 명령으로 끈다.
+
+## 라이선스
+
+MIT — [LICENSE](LICENSE) 참고. 마음대로 가져다 쓰고 고쳐도 된다.
